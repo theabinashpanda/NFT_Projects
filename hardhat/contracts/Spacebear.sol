@@ -44,7 +44,7 @@ contract Spacebear is ERC721, Ownable {
         returns (string memory)
     {
         // return super.tokenURI(tokenId);
-        return string(abi.encodePacked(_baseURI(),"_",(tokenId+1),".json"));
+        return string(abi.encodePacked(_baseURI(),"spacebear_",(tokenId+1),".json"));
     }
 
     // function supportsInterface(bytes4 interfaceId)
