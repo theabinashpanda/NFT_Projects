@@ -16,7 +16,7 @@ module.exports = {
         count: 20,
       },
     },
-    goelri: {
+    sepolia: {
       url: "https://sepolia.infura.io/v3/" + infuraProjectID,
       accounts: {
         mnemonic,
